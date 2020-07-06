@@ -1,0 +1,23 @@
+/* .mx5x {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+
+@media(min-width: 768px) {
+    .mx5x {
+        ;
+        margin-right: 4rem !important;
+        margin-left: 1rem !important;
+    }
+
+}
+
+.ui.menu .item:before .menu:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 0;
+    width: 0 !important;
+    background: white;
+} */

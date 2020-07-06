@@ -1,0 +1,60 @@
+.card {
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.cardBody {
+    padding: 0.5rem 0 0;
+}
+
+.cardHeader {
+    background: white;
+    padding: 12px 0.5rem;
+    border: none;
+}
+
+.cardHeaderH6 {
+    font-size: 0.8rem;
+}
+
+.cardHeaderH6 i {
+    float: right;
+    font-weight: bold;
+}
+
+.cardHeaderH6 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.red {
+    color: red;
+}
+
+.brown {
+    color: brown;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#colors i {
+    border-radius: 0;
+}
+
+.size a {
+    color: initial;
+    border: 1px solid;
+    width: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}

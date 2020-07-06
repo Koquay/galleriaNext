@@ -1,0 +1,52 @@
+.subscription h5 {
+    background-color: #ef5656;
+    color: white;
+    border: solid #ef5656;
+    width: 55%;
+    padding: 0.5rem 1rem;
+}
+
+@media(min-width: 768px) {
+    .subscription h5 {
+        width: 75%;
+    }
+}
+
+@media(min-width: 991px) {
+    .subscription h5 {
+        width: 55%;
+    }
+}
+
+.subscription i {
+    padding: 0.5rem 0.8rem;
+    border: 1px solid;
+}
+
+.subscriptionInputGroup button {
+    background: #ef5656;
+    border: #ef5656;
+}
+
+.info h5 {
+    font-weight: bold;
+}
+
+.infoOffices p {
+    font-size: 0.9rem;
+}
+
+.info li {
+    border-bottom: 1px solid;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-color: #d2d2d2;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.hide-image {
+    visibility: hidden;
+}

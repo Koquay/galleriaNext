@@ -1,0 +1,353 @@
+#carousel-1 .carousel-item {
+    position: relative;
+}
+
+/* #carousel-1 .carousel-item div { */
+.carouselInnertextDiv {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    text-align: center;
+}
+
+/* #carousel-1 .carousel-item div h1 { */
+.carouselInnertextDivH1 {
+    color: #ef5656;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* #carousel-1 .carousel-item div h2 { */
+.carouselInnertextDivH2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+@media(min-width: 769px) {
+    .carouselInnertextDivH1,
+    .carouselInnertextDivH2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* #mid-container #collections .collection { */
+.collection {
+    position: relative;
+    overflow: hidden;
+}
+
+.collectionImg {
+    transition: 0.5s;
+}
+
+/* #mid-container #collections .collection #banner { */
+.collectionBanner {
+
+    position: absolute;
+    bottom: 3.5rem;
+    left: 0;
+    width: 100%;
+    background: #ef5656;
+    color: white;
+    padding: 0.6rem;
+    opacity: .82;
+    width: 30rem;
+    overflow: hidden;
+    transform: rotateZ(-20deg) translate(-5rem, -2rem);
+    z-index: 10;
+}
+
+/* #mid-container #collections .collection i { */
+.collectionIcon {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 1.3rem !important;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: white;
+    z-index: 12;
+    display: none;
+}
+
+.collectionImg:hover {
+    transform: scaleY(1.1);
+}
+
+.collection:hover .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .3;
+}
+
+.collection:hover .collectionIcon {
+    display: block;
+    transition: 0.4s;
+}
+
+/* #mid-container #product-carousel { */
+.productCarousel {
+    margin-top: 4rem;
+}
+
+/* #mid-container #product-carousel ul li { */
+.productCarousel ul li {
+    border: 2px solid #ef5656;
+    margin-right: 2rem;
+}
+
+.productCarousel ul li a {
+    color: #303030 !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*a.active not working */
+.productCarousel ul li a.active {
+    color: #fff !important;
+    background-color: #ef5656 !important;
+}
+
+/* .productCarousel .card { */
+.productCarouselCard {
+    position: relative;
+    transition: 0.3s all;
+    overflow: hidden;
+}
+
+.productCarouselCardBody {
+    z-index: 10;
+}
+
+.productCarouselCard i {
+    color: #ef5656;
+}
+
+.productCarouselCardImg1 {
+    opacity: 1 !important;
+}
+
+.productCarouselCardImg2 {
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.productCarouselCardActions {
+    position: absolute;
+    top: 20%;
+    transition: all 0.3s;
+}
+
+.productCarouselCardActions i {
+    background: #ef5656;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.productCarouselCardActions i:hover {
+    background: white;
+    color: #ef5656;
+    border: 1px solid #ef5656;
+}
+
+.productCarouselAddToCart {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 2.8rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #ef5656;
+    color: white;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.productCarouselCard:hover .productCarouselCardImg1 {
+    opacity: 0 !important;
+}
+
+.productCarouselCard:hover .productCarouselCardImg2 {
+    opacity: 1 !important;
+}
+
+.productCarouselCard:hover .productCarouselCardActions {
+    right: 0.5rem;
+}
+
+.productCarouselCard:hover .productCarouselAddToCart {
+    bottom: 7.5rem;
+    opacity: 1;
+}
+
+.salesAds {
+    margin-top: 4rem;
+}
+
+.ad {
+    position: relative;
+}
+
+.adSalesBanner {
+    position: absolute;
+    top: 3rem;
+    right: 6rem;
+}
+
+.adSalesBanner h2 {
+    color: #ef5656;
+    font-size: 1.5rem;
+}
+
+@media(min-width: 991px) {
+    .adSalesBanner h2 {
+        color: #ef5656;
+        font-size: 3rem;
+    }
+}
+
+.adSalesBanner2 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    max-height: 240px;
+}
+
+.ad i {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: white;
+    z-index: 12;
+    display: none;
+}
+
+.ad:hover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .3;
+    transition: 0.4s;
+}
+
+.ad:hover i {
+    display: block;
+    transition: 0.4s;
+}
+
+.blogBrand {
+    margin-top: 4rem;
+}
+
+.blogBrand h5 {
+    background-color: #ef5656;
+    color: white;
+    border: solid #ef5656;
+    width: 55%;
+    padding: 0.5rem 1rem;
+}
+
+@media(min-width: 768px) {
+    .blogBrand h5 {
+        width: 45%;
+    }
+}
+
+@media(min-width: 991px) {
+    .blogBrand h5 {
+        width: 35%;
+    }
+}
+
+.blogBrand p {
+    font-size: 0.9rem;
+}
+
+.blogBrandCard {
+    position: relative;
+}
+
+.blogBrandCard h4 {
+    font-size: 1.4rem;
+}
+
+.blogBrandCardH4 a {
+    color: #ef5656;
+}
+
+.blogBrandCardLink {
+    padding: 8px 0 10px;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 8px;
+}
+
+.blogBrandCardLink a {
+    font-size: 0.9rem;
+    color: #6e6e6e;
+}
+
+.blogBrandCardDate {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    background-color: white;
+    border-radius: 50%;
+    color: #ef5656;
+    padding: 0.6rem 0.8rem;
+}
+
+.blogBrandCardDate h3 {
+    font-weight: bold;
+}
+
+.blogBrandCardMonth {
+    font-size: 1rem;
+}
+
+.blogBrandCompany {
+    border: 1px solid #6e6e6e;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blogBrandBlog {
+    margin-bottom: 2rem;
+}
+
+.services {
+    margin-top: 4rem;
+}
+
+.services span {
+    width: 15rem;
+}
+
+.services p {
+    font-size: 0.9rem;
+}
+
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.hide-image {
+    visibility: hidden;
+}

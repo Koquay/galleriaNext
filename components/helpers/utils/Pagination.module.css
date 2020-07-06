@@ -1,0 +1,8 @@
+.pageItem a {
+  color: #ef5656 !important;
+}
+
+.pageItem a:hover {
+  background-color: #ef5656;
+  color: white !important;
+}

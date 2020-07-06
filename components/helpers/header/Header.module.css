@@ -1,0 +1,70 @@
+.body {
+    font-family: 'Roboto';
+    color: #6e6e6e;
+}
+
+.body a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header {
+    color: #6e6e6e;
+}
+
+.header i {
+    color: #ef5656;
+}
+
+.headerTopRow {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.headerCurrency {
+    background: rgba(49, 49, 49, 0.97);
+    color: white;
+    margin-right: 3rem;
+}
+
+.headerFaPhone {
+    font-size: 2rem;
+}
+
+.headerMiddleRow {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.cartBadge {
+    background: #ef5656;
+    border-radius: 50%;
+    margin-top: -2rem;
+    margin-left: 0.8rem;
+}
+
+.searchInputGroup button {
+    background: #ef5656;
+    border: #ef5656;
+}
+
+.searchInputGroup button i {
+    color: white;
+}
+
+.navbar {
+    background: #ef5656;
+}
+
+.header .navbar .nav {
+    background: white;
+}
+
+.header .navbar button i {
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+@media(min-width: 992px) {
+    .header .navbar {
+        background: white;
+    }
+}

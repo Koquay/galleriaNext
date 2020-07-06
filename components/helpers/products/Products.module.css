@@ -1,0 +1,100 @@
+#section-image .section-name {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  color: #ef5656;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #section-image .section-name {
+    bottom: 35%;
+    left: 20%;
+    font-size: 2.5rem;
+  }
+}
+
+.card {
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s all;
+  overflow: hidden;
+}
+
+.imgTop {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.cardBody {
+  border: 0;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.rating {
+  color: #ef5656;
+}
+
+.img1 {
+  opacity: 1 !important;
+}
+
+.img2 {
+  opacity: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.productActions {
+  position: absolute;
+  top: 20%;
+  right: -4rem;
+  transition: all 0.3s;
+}
+
+.productActions i {
+  background: #ef5656;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 50px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.productActions i:hover {
+  background: white;
+  color: #ef5656;
+  border: 1px solid #ef5656;
+}
+
+.addToCart {
+  position: absolute;
+  bottom: 3.5rem;
+  right: 2.8rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #ef5656;
+  color: white;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.card:hover .img1 {
+  opacity: 0 !important;
+}
+
+.card:hover .img2 {
+  opacity: 1 !important;
+}
+
+.card:hover .productActions {
+  right: 0.5rem;
+}
+
+.card:hover .addToCart {
+  bottom: 7.5rem;
+  opacity: 1;
+}

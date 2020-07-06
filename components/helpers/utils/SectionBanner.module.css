@@ -1,0 +1,17 @@
+.sectionBannerImage {
+  position: relative;
+}
+.sectionBannerInnerText {
+  position: absolute;
+  color: #ef5656;
+  font-weight: bold;
+  font-size: 1rem;
+  top: 45%;
+  left: 20%;
+}
+
+@media (min-width: 768px) {
+  .sectionBannerInnerText {
+    font-size: 3rem;
+  }
+}
