@@ -18,10 +18,11 @@ const Message = ({ message, resetMessage, openMessage }) => {
       open={openMessage}
       className={classes.snackbar}
       message={message}
-      anchorOrigin={{ vertical: "top", horizontal: "center" }}
+      anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
       // key={`top,center`}
       TransitionComponent={TransitionDown}
       autoHideDuration={6000}
+      transitionDuration={2000}
       action={
         <Button onClick={() => resetMessage()} color="secondary" size="small">
           OK

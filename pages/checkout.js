@@ -57,7 +57,6 @@ const Checkout = ({ checkout, placeOrder }) => {
 
     Object.entries(userData).filter((entry) => {
       if (!excludeFromValidation.includes(entry[0])) {
-        console.log("entry", entry);
         if (!isLength(entry[1], { min: 1 })) {
           errorMessages[entry[0]].error = true;
           errorMessages[entry[0]].errorMsg = `${entry[0]} is required`;
@@ -186,7 +185,7 @@ const Checkout = ({ checkout, placeOrder }) => {
                 error={errorMessages.lastName.error}
                 helpertext={errorMessages.lastName.errorMsg}
               />
-              {JSON.stringify(errorMessages.lastName.errorMsg)}
+              {/* {JSON.stringify(errorMessages.lastName.errorMsg)} */}
             </Grid>
           </Grid>
           <Grid container className={classes.formGrid}>
