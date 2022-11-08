@@ -20,7 +20,7 @@
     "jsonwebtoken": "^8.5.1",
     "material-ui-rating": "^4.2.0",
     "mongoose": "^5.6.7",
-    "next": "^9.4.4",
+    "next": "^13.0.2",
     "nookies": "^2.0.8",
     "nprogress": "^0.2.0",
     "rc-slider": "^9.2.4",
